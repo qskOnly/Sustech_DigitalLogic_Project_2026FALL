@@ -1,9 +1,22 @@
+# Vivado 临时/日志文件
 *.jou
 *.log
 *.dcp
-*.Xil/
-project_1.cache/
-project_1.hw/
-project_1.runs/
-project_1.sim/
-project_1.ip_user_files/
+*.str
+*.wdb
+.Xil/
+*.backup.*
+
+# Vivado 工程文件与自动生成的目录
+*.xpr
+*.srcs/
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.gen/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
